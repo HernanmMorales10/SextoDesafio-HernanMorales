@@ -1,0 +1,21 @@
+<form method="POST" action="/api/sessions">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password">
+
+    <button type="submit">Login</button>
+</form>
+
+<div>
+    <a href="./sessions/restore">Cambiar password</a>
+</div>
+
+<div>
+    <p>No tienes cuenta ? <a href="./sessions/register">Registrarse</a></p>
+</div>
+
+<div>
+    <a href="/api/sessions/github"><button>Entrar con GitHub</button></a>
+</div>
